@@ -1,0 +1,16 @@
+{
+  "name": "carl",
+  "version": "1.0.0",
+  "description": "A replacement of curl in Node.JS",
+  "bin": {
+    "carl": "./cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.2.5",
+    "inquirer": "^6.2.2",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
