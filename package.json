@@ -1,6 +1,6 @@
 {
   "name": "carl-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A replacement of curl in Node.JS",
   "bin": {
     "carl": "./cli.js"
@@ -17,9 +17,7 @@
     "es6-promise": "^4.2.5",
     "http-status": "1.3.1",
     "inquirer": "^6.2.2",
-    "isomorphic-fetch": "^2.2.1"
-  },
-  "devDependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.11"
   }
 }
