@@ -69,7 +69,7 @@ Showing a structured version of the body response:
 
 ## Features
 
-- You can include the protocol in the url, or not. If you don't, carl will use _HTTPS_ by default
+- You can include the protocol in the url, or not. If you don't, carl will use **HTTPS** by default
 - The currently supported Content-Types are `text/html` and `application/json`.
 - For HTML pages, it returns structured data instead of the HTML code.
 
