@@ -1,6 +1,5 @@
 {
   "name": "carl-cli",
-  "private": false,
   "version": "1.1.0",
   "description": "A replacement of curl in Node.JS",
   "bin": {

@@ -15,8 +15,6 @@ if (!protocolRegex.test(url)) {
   url = `https://${url}`;
 }
 
-let headers = args.includes("-H") || args.includes("--headers");
-
 const doFetch = () => {
   fetch(url)
     .then(processResponse)
