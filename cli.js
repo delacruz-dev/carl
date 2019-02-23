@@ -11,11 +11,11 @@ const { printResponse } = require("./lib/response-printer");
 const [, , ...args] = process.argv;
 let url = args[0];
 
-if (!protocolRegex.test(url)) {
-  url = `https://${url}`;
-}
-
 const doFetch = () => {
+  if (!protocolRegex.test(url)) {
+    url = `https://${url}`;
+  }
+
   fetch(url)
     .then(processResponse)
     .then(printResponse)
